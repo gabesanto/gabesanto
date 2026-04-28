@@ -25,6 +25,14 @@ The pipeline supports:
 - Optional/skippable steps depending on the use case
 - Step-level observability for auditability and debugging
 
+## Agent orchestration model
+
+The workflow is designed more like a factory than a single monolithic agent.
+
+A coordinating agent owns the overall process, while specialized sub-agents handle focused steps. Each step has a narrower responsibility, clearer inputs, clearer outputs, and more predictable behavior.
+
+This separation makes the system easier to evaluate, debug, tune, and improve over time.
+
 ## Product flexibility
 
 The workflow is not a rigid one-size-fits-all pipeline.
@@ -47,6 +55,10 @@ LLM reasoning is used only where context and judgment are valuable, especially f
 
 The agent should not reason in isolation. It should retrieve relevant existing records, business rules, and workflow context before making or suggesting decisions.
 
+### Specialized agents over a monolith
+
+Each sub-agent should behave like a specialized machine in a factory: focused on one responsibility, easier to test, and easier to improve without destabilizing the whole workflow.
+
 ### Review queues over silent automation
 
 Low-confidence or ambiguous outputs should be routed to review instead of being forced through the workflow.
@@ -62,6 +74,8 @@ Production AI agents need measurable outputs, step-by-step traces, and feedback 
 ## Architecture themes
 
 - Agentic pipeline design
+- Coordinator/sub-agent orchestration
+- Specialized agents with narrow responsibilities
 - Rails and Python service boundaries
 - Background jobs and async processing
 - Webhook-based completion flows
@@ -76,7 +90,7 @@ Production AI agents need measurable outputs, step-by-step traces, and feedback 
 
 Early production runs have been very strong.
 
-There is no large public benchmark to share yet, but for the core scenarios the system was designed around, the success rate has been extremely high — especially for cases that previously required manual inspection.
+There is no large public benchmark to share yet, but for the reviewed core scenarios the system was designed around, outputs reached roughly **99% confidence after iteration and tuning**.
 
 The most important result: the workflow became more structured, observable, configurable, and repeatable.
 
