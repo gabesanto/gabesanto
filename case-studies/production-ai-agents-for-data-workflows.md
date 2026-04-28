@@ -21,7 +21,17 @@ The pipeline supports:
 - Completeness and data quality validation
 - Confidence-based routing
 - Structured outputs for ready, review, and not-ready cases
+- Configurable workflow options at run start
+- Optional/skippable steps depending on the use case
 - Step-level observability for auditability and debugging
+
+## Product flexibility
+
+The workflow is not a rigid one-size-fits-all pipeline.
+
+Users can customize which checks should run when starting the workflow. This makes the agent more useful across different operational contexts: some runs need the full pipeline, while others only need a subset of checks.
+
+This matters because production AI systems should adapt to the workflow instead of forcing every user through the same path.
 
 ## Design principles
 
@@ -41,6 +51,10 @@ The agent should not reason in isolation. It should retrieve relevant existing r
 
 Low-confidence or ambiguous outputs should be routed to review instead of being forced through the workflow.
 
+### Configurable by design
+
+Production workflows are rarely identical every time. Agent steps should be configurable, skippable, and explicit so users can adapt the system to the job they are running.
+
 ### Evals and observability as product requirements
 
 Production AI agents need measurable outputs, step-by-step traces, and feedback loops. Evals are not a separate research artifact; they are part of the product architecture.
@@ -51,6 +65,8 @@ Production AI agents need measurable outputs, step-by-step traces, and feedback 
 - Rails and Python service boundaries
 - Background jobs and async processing
 - Webhook-based completion flows
+- User-configurable run options
+- Optional/skippable agent steps
 - Structured run metadata and cleanup reports
 - Human-in-the-loop review paths
 - RAG-style retrieval over existing data and business context
@@ -62,7 +78,7 @@ Early production runs have been very strong.
 
 There is no large public benchmark to share yet, but for the core scenarios the system was designed around, the success rate has been extremely high — especially for cases that previously required manual inspection.
 
-The most important result: the workflow became more structured, observable, and repeatable.
+The most important result: the workflow became more structured, observable, configurable, and repeatable.
 
 ## What this reflects
 
