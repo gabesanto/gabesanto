@@ -6,11 +6,11 @@ A short, sanitized case study on designing AI agents for production data workflo
 
 B2B data workflows often involve high variance across sources, formats, confidence levels, and edge cases.
 
-The challenge is not just to automate a task with an LLM. The challenge is to design a reliable product system that can combine deterministic checks, retrieval, AI reasoning, observability, and human review without turning the workflow into a black box.
+The challenge is not just to automate a task with an LLM. The challenge is to design a reliable internal intelligence system that can combine deterministic checks, retrieval, AI reasoning, observability, and human review without turning the workflow into a black box.
 
 ## What I built
 
-I designed and shipped a production AI-assisted workflow focused on data hygiene and readiness.
+I designed and shipped a production AI-assisted workflow focused on data hygiene and readiness for internal operational intelligence.
 
 At a high level, the system combines:
 
@@ -20,7 +20,7 @@ At a high level, the system combines:
 - Confidence-based routing for ambiguous cases
 - Configurable workflow options at run start
 - Optional/skippable steps depending on the use case
-- Structured outputs for downstream product workflows
+- Structured outputs for downstream internal workflows
 - Step-level observability for auditability and debugging
 
 ## Agent orchestration model
@@ -81,15 +81,15 @@ Production AI agents need measurable outputs, step-by-step traces, and feedback 
 - Structured run metadata and reports
 - Human-in-the-loop review paths
 - RAG-style retrieval over relevant workflow context
-- Product-facing outputs instead of one-off scripts
+- Internal product-facing outputs instead of one-off scripts
 
 ## Outcome
 
-Early production runs have been very strong.
+Early production runs for internal use have been very strong.
 
-There is no large public benchmark to share yet, but for the reviewed core scenarios the system was designed around, outputs reached roughly **99% confidence after iteration and tuning**.
+For the reviewed core scenarios the system was designed around, outputs reached roughly **99% confidence after iteration and tuning**.
 
-The most important result: the workflow became more structured, observable, configurable, and repeatable.
+The most important result: the workflow became more structured, observable, configurable, and repeatable for internal intelligence workflows.
 
 ## What this reflects
 
