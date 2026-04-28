@@ -2,7 +2,7 @@
 
 Founding AI Engineer / Head of Engineering building production AI systems, scalable platforms, and product-grade automation.
 
-I help teams turn messy operations, fragile backends, and early AI ideas into reliable software that ships.
+I help teams turn complex operations, fragile backends, and early AI ideas into reliable software that ships.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabesanto)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gabesanto)
@@ -22,7 +22,7 @@ I help teams turn messy operations, fragile backends, and early AI ideas into re
 ## What I build
 
 - Production AI agents (data cleaning, enrichment, outbound automation)
-- AI agents, LLM workflows, and RAG systems
+- LLM workflows and RAG systems
 - Backend/platform systems with Rails, Python, Go, and TypeScript
 - Cloud infrastructure on GCP, Cloud Run, Cloud SQL, Docker, and PostgreSQL
 - Internal tools and automation for sales, ops, and product teams
@@ -36,6 +36,12 @@ I help teams turn messy operations, fragile backends, and early AI ideas into re
 - Exploring MCP servers and BigQuery integrations
 - Scaling backend systems and cloud infrastructure on GCP
 - Turning internal operations into reliable product workflows
+
+---
+
+## Case studies
+
+- [Building Production AI Agents for Complex B2B Data Workflows](./case-studies/production-ai-agents-for-data-workflows.md)
 
 ---
 
