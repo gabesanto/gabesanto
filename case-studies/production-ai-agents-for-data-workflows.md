@@ -10,34 +10,32 @@ The challenge is not just to automate a task with an LLM. The challenge is to de
 
 ## What I built
 
-I designed and shipped a production AI-assisted pipeline focused on data hygiene and readiness.
+I designed and shipped a production AI-assisted workflow focused on data hygiene and readiness.
 
-The pipeline supports:
+At a high level, the system combines:
 
-- Data normalization
-- Deduplication and conflict resolution
-- Cross-checks against existing records and business rules
-- Retrieval-augmented checks for additional context
-- Completeness and data quality validation
-- Confidence-based routing
-- Structured outputs for ready, review, and not-ready cases
+- Deterministic validation where correctness matters
+- Retrieval-augmented context before reasoning
+- Specialized agents with narrow responsibilities
+- Confidence-based routing for ambiguous cases
 - Configurable workflow options at run start
 - Optional/skippable steps depending on the use case
+- Structured outputs for downstream product workflows
 - Step-level observability for auditability and debugging
 
 ## Agent orchestration model
 
 The workflow is designed more like a factory than a single monolithic agent.
 
-A coordinating agent owns the overall process, while specialized sub-agents handle focused steps. Each step has a narrower responsibility, clearer inputs, clearer outputs, and more predictable behavior.
+A coordinating agent owns the overall process, while specialized sub-agents handle focused responsibilities. Each part of the system has clearer inputs, clearer outputs, and more predictable behavior.
 
-This separation makes the system easier to evaluate, debug, tune, and improve over time.
+This separation makes the workflow easier to evaluate, debug, tune, and improve over time without exposing every implementation detail as a rigid recipe.
 
 ## Product flexibility
 
 The workflow is not a rigid one-size-fits-all pipeline.
 
-Users can customize which checks should run when starting the workflow. This makes the agent more useful across different operational contexts: some runs need the full pipeline, while others only need a subset of checks.
+Users can customize which checks should run when starting the workflow. This makes the agent more useful across different operational contexts: some runs need the full system, while others only need a subset of capabilities.
 
 This matters because production AI systems should adapt to the workflow instead of forcing every user through the same path.
 
@@ -53,7 +51,7 @@ LLM reasoning is used only where context and judgment are valuable, especially f
 
 ### Retrieval before reasoning
 
-The agent should not reason in isolation. It should retrieve relevant existing records, business rules, and workflow context before making or suggesting decisions.
+The agent should not reason in isolation. It should retrieve relevant context before making or suggesting decisions.
 
 ### Specialized agents over a monolith
 
@@ -65,7 +63,7 @@ Low-confidence or ambiguous outputs should be routed to review instead of being 
 
 ### Configurable by design
 
-Production workflows are rarely identical every time. Agent steps should be configurable, skippable, and explicit so users can adapt the system to the job they are running.
+Production workflows are rarely identical every time. Agent capabilities should be configurable, skippable, and explicit so users can adapt the system to the job they are running.
 
 ### Evals and observability as product requirements
 
@@ -73,17 +71,16 @@ Production AI agents need measurable outputs, step-by-step traces, and feedback 
 
 ## Architecture themes
 
-- Agentic pipeline design
+- Agentic workflow design
 - Coordinator/sub-agent orchestration
 - Specialized agents with narrow responsibilities
-- Rails and Python service boundaries
-- Background jobs and async processing
-- Webhook-based completion flows
+- Service boundaries between product and AI systems
+- Async processing and completion callbacks
 - User-configurable run options
-- Optional/skippable agent steps
-- Structured run metadata and cleanup reports
+- Optional/skippable agent capabilities
+- Structured run metadata and reports
 - Human-in-the-loop review paths
-- RAG-style retrieval over existing data and business context
+- RAG-style retrieval over relevant workflow context
 - Product-facing outputs instead of one-off scripts
 
 ## Outcome
