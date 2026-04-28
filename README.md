@@ -1,6 +1,8 @@
-# Hi, I'm Gabriel Santo 👋
+# Gabriel Santo
 
-I build and scale AI-enabled products, backend/platform systems, and cloud infrastructure with a strong execution focus.
+Founding AI Engineer / Head of Engineering building production AI systems, scalable platforms, and product-grade automation.
+
+I help teams turn messy operations, fragile backends, and early AI ideas into reliable software that ships.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/gabssanto)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gabssanto)
@@ -8,61 +10,79 @@ I build and scale AI-enabled products, backend/platform systems, and cloud infra
 
 ---
 
-## ⚙️ Engineering impact
+## Proven impact
 
 - Scaled an AI platform from **5 to 28+ enterprise clients**
-- Drove **21x processing improvement** (**42,000s → 2,000s**)
-- Led infra modernization with **40%+ cloud cost reduction**
+- Reduced a core processing workflow by **~21x** (**42,000s → 2,000s**)
+- Led infrastructure modernization with **40%+ cloud cost reduction**
 - Built systems enabling **10x operational scale** without proportional headcount growth
 
 ---
 
-## 🌟 Flagship projects
+## What I build
 
-### 1) [Scope](https://github.com/gabssanto/Scope) — Fast CLI workspace organizer (Go)
-A cross-platform CLI to tag folders, create scoped workspaces, and navigate large project trees quickly.
-
-**Highlights**
-- Tag-based filesystem organization with multi-tag support
-- Temporary workspace sessions with symlinked project contexts
-- Bulk operations + project scanning workflows
-- Lightweight architecture and fast local usage
+- AI agents, LLM workflows, and RAG systems
+- Backend/platform systems with Rails, Python, Go, and TypeScript
+- Cloud infrastructure on GCP, Cloud Run, Cloud SQL, Docker, and PostgreSQL
+- Internal tools and automation for sales, ops, and product teams
+- Product experiences with a strong focus on UX, speed, and reliability
 
 ---
 
-### 2) Timely ecosystem — Calendar product work
-- [timely-app](https://github.com/gabssanto/timely-app) (iOS/macOS)
-- [timely-web](https://github.com/gabssanto/timely-web)
-- [timely-api](https://github.com/gabssanto/timely-api)
+## Work with me
 
-Calendar-focused product initiative across app, web, and backend surfaces.
+I’m open to selected consulting, advisory, and product engineering work around:
 
-**Highlights**
-- Product-minded development from concept to shipped experiences
-- Focus on UX fluidity, speed, and reliability
-- Multi-surface architecture mindset (client + backend)
+- AI agents and LLM-powered workflows
+- Backend/platform architecture
+- Cloud cost reduction and infrastructure modernization
+- Internal tools and automation
+- Early-stage product engineering from idea to production
 
----
-
-### 3) [nasaOnFire](https://github.com/gabssanto/nasaOnFire) — NASA Space Apps Challenge Winner
-A wildfire prevention/reporting app using crowdsourcing + NASA data concepts.
-
-**Highlights**
-- Winning hackathon project with real-world problem framing
-- React Native/Firebase implementation
-- Strong signal of fast prototyping and team execution under constraints
+Best way to reach me:  
+[LinkedIn](https://linkedin.com/in/gabssanto) · [Email](mailto:espiritosanto.gabriel@gmail.com)
 
 ---
 
-## 🧪 Build & experiments
+## Selected work
 
-- [pizzaPy](https://github.com/gabssanto/pizzaPy) — frontend framework experiment in pure Python
-- [flutter-notion](https://github.com/gabssanto/flutter-notion) — Notion-like editor POC in Flutter Web
-- [TechTalks](https://github.com/gabssanto/TechTalks) — technical write-ups and shared learnings
+### [Scope](https://github.com/gabesanto/Scope) — Developer productivity tooling in Go
+
+A fast CLI for organizing project workspaces, tagging folders, and navigating large codebases.
+
+**Signals:** Go, CLI design, DX, local-first tooling.
 
 ---
 
-## 🧰 Core stack
+### Timely ecosystem — Product-grade calendar experience
+
+- [timely-app](https://github.com/gabesanto/timely-app)
+- [timely-web](https://github.com/gabesanto/timely-web)
+- [timely-api](https://github.com/gabesanto/timely-api)
+
+A calendar product initiative across app, web, and backend surfaces.
+
+**Signals:** product engineering, UX taste, multi-surface architecture, backend/API design.
+
+---
+
+### [nasaOnFire](https://github.com/gabesanto/nasaOnFire) — NASA Space Apps Challenge Winner
+
+A wildfire prevention/reporting app using crowdsourcing and NASA data concepts.
+
+**Signals:** rapid prototyping, product storytelling, team execution, real-world problem framing.
+
+---
+
+## Build & experiments
+
+- [pizzaPy](https://github.com/gabesanto/pizzaPy) — frontend framework experiment in pure Python
+- [flutter-notion](https://github.com/gabesanto/flutter-notion) — Notion-like editor POC in Flutter Web
+- [TechTalks](https://github.com/gabesanto/TechTalks) — technical write-ups and shared learnings
+
+---
+
+## Core stack
 
 **Languages:** Ruby, Python, Go, TypeScript, JavaScript, SQL  
 **Frameworks:** Rails, Next.js, React, FastAPI, Flask  
