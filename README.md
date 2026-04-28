@@ -5,7 +5,7 @@ Founding AI Engineer / Head of Engineering building production AI systems, scala
 I help teams turn messy operations, fragile backends, and early AI ideas into reliable software that ships.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabesanto)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gabssanto)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gabesanto)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:espiritosanto.gabriel@gmail.com)
 
 ---
@@ -51,18 +51,6 @@ Best way to reach me:
 A fast CLI for organizing project workspaces, tagging folders, and navigating large codebases.
 
 **Signals:** Go, CLI design, DX, local-first tooling.
-
----
-
-### Timely ecosystem — Product-grade calendar experience
-
-- [timely-app](https://github.com/gabesanto/timely-app)
-- [timely-web](https://github.com/gabesanto/timely-web)
-- [timely-api](https://github.com/gabesanto/timely-api)
-
-A calendar product initiative across app, web, and backend surfaces.
-
-**Signals:** product engineering, UX taste, multi-surface architecture, backend/API design.
 
 ---
 
