@@ -21,11 +21,21 @@ I help teams turn messy operations, fragile backends, and early AI ideas into re
 
 ## What I build
 
+- Production AI agents (data cleaning, enrichment, outbound automation)
 - AI agents, LLM workflows, and RAG systems
 - Backend/platform systems with Rails, Python, Go, and TypeScript
 - Cloud infrastructure on GCP, Cloud Run, Cloud SQL, Docker, and PostgreSQL
 - Internal tools and automation for sales, ops, and product teams
 - Product experiences with a strong focus on UX, speed, and reliability
+
+---
+
+## Now
+
+- Building production AI agents for outbound automation
+- Exploring MCP servers and BigQuery integrations
+- Scaling backend systems and cloud infrastructure on GCP
+- Turning internal operations into reliable product workflows
 
 ---
 
