@@ -4,7 +4,7 @@ Founding AI Engineer / Head of Engineering building production AI systems, scala
 
 I help teams turn messy operations, fragile backends, and early AI ideas into reliable software that ships.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/gabssanto)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabesanto)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gabssanto)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:espiritosanto.gabriel@gmail.com)
 
@@ -40,7 +40,7 @@ I’m open to selected consulting, advisory, and product engineering work around
 - Early-stage product engineering from idea to production
 
 Best way to reach me:  
-[LinkedIn](https://linkedin.com/in/gabssanto) · [Email](mailto:espiritosanto.gabriel@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/gabesanto) · [Email](mailto:espiritosanto.gabriel@gmail.com)
 
 ---
 
